@@ -42,6 +42,7 @@ Time spent: 15 hours
 
 Here's a walkthrough of implemented required features:
 
+"C:\Users\Stint\Desktop\Projects\creatorverse-master\creatorverse.gif"
  ## License
 
 Copyright [2026] [Salman Khan]
