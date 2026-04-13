@@ -3,7 +3,7 @@ Developed by: Salman Khan
 
 About this web app: Creatorverse is a website built with React (frontend) & Supabase(backend) that supports CRUD (create, read, update, and delete) operations on your favorite content creators. Your content creators can be Twitch streamers, YouTube channels, Instagram, Twitter and Tiktok personalities.
 
-Time spent: 24 hours
+Time spent: 15 hours
 
 ## Features
 
@@ -42,7 +42,7 @@ Time spent: 24 hours
 
 Here's a walkthrough of implemented required features:
 
-![])
+![](https://github.com/Myesha-Mahazabeen/creatorverse/blob/master/creatorverse.gif)
  
  GIF created with screentogif app
  

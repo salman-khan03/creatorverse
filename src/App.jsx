@@ -1,36 +1,45 @@
-import { useRoutes } from 'react-router-dom'
-import ShowCreators from './pages/ShowCreators'
-import ViewCreator from './pages/ViewCreator'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
+import Home from './pages/Home'
 import AddCreator from './pages/AddCreator'
 import EditCreator from './pages/EditCreator'
+import ShowCreator from './pages/ShowCreator'
+import ViewCreator from './pages/ViewCreator'
 import '@picocss/pico'
 import './App.css'
 
 function App() {
-  // Define the routes and elements
-  const element = useRoutes([
+  const creatorverseRouter = createBrowserRouter([
     {
       path: '/',
-      element: <ShowCreators />
+      element: <Home />,
+      children: [
+        {
+            index: true,
+            element: <ShowCreator />
+        },
+        {
+            path: '/new',
+            element: <AddCreator />
+        },
+        {
+            path: '/:id',
+            element: <ViewCreator />
+        },
+        {
+            path: '/edit/:id',
+            element: <EditCreator />
+        }
+      ]
     },
-    {
-      path: '/new',
-      element: <AddCreator />
-    },
-    {
-      path: '/:id',
-      element: <ViewCreator />
-    },
-    {
-      path: '/edit/:id',
-      element: <EditCreator />
-    }
-  ])
+])
 
   return (
-    <div className="App">
-      {element}
-    </div>
+      <>
+         <RouterProvider router={creatorverseRouter}>
+
+         </RouterProvider>
+      </>
   )
 }
 
