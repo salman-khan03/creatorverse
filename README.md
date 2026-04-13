@@ -41,9 +41,7 @@ Time spent: 15 hours
  ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
- 
- GIF created with screentogif app
- 
+
  ## License
 
 Copyright [2026] [Salman Khan]
