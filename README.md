@@ -41,8 +41,6 @@ Time spent: 15 hours
  ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
-![](https://github.com/Myesha-Mahazabeen/creatorverse/blob/master/creatorverse.gif)
  
  GIF created with screentogif app
  
